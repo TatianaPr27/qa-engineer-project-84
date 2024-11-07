@@ -5,9 +5,8 @@ environment: |
     Firefox версия 131.0.3 (64-битная)
     Microsoft Windows [Version 10.0.19045.5011]
 steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
-    2. Нажать кнопку "Изменения языка"
-    3. Выбрать нужный язык
+    1. Нажать кнопку "Изменения языка"
+    2. Выбрать нужный язык
 expected-result: |
     Текст описания должен измениться на выбранный
 actual-result: |
@@ -19,9 +18,8 @@ environment: |
     Firefox версия 131.0.3 (64-битная)
     Microsoft Windows [Version 10.0.19045.5011]
 steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
-    2. Ввести в поле поиска ключевое слово, например: "помада"
-    3. Нажать кнопку "Enter"
+    1. Ввести в поле поиска ключевое слово, например: "помада"
+    2. Нажать кнопку "Enter"
 expected-result: |
     Отображается список товаров, соответствующих ключевому слову "помада"
 actual-result: |
@@ -33,10 +31,9 @@ environment: |
     Firefox версия 131.0.3 (64-битная)
     Microsoft Windows [Version 10.0.19045.5011]
 steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
-    2. Нажать кнопку "Корзина"
-    3. Нажать кнопку "Оформить заказ"
-    4. Перейти на страницу оплаты
+    1. Нажать кнопку "Корзина"
+    2. Нажать кнопку "Оформить заказ"
+    3. Перейти на страницу оплаты
 expected-result: |
     Переход на страницу оплаты после оформлении заказа
 actual-result: |
