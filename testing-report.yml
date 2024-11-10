@@ -32,4 +32,4 @@ status: pass
 
 - summary: |
     Проверка о наличие товаров в магазине
-status: pass
+status: fail
