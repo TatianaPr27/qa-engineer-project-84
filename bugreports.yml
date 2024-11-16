@@ -1,40 +1,40 @@
 ---
 - summary: |
     Не работает изменение языка в описание товара
- environment: |
+  environment: |
     Firefox версия 131.0.3 (64-битная)
-    Microsoft Windows [Version 10.0.19045.5011]
- steps-to-reproduce: |
+    Microsoft Windows Version 10.0.19045.5011
+  steps-to-reproduce: |
     1. Нажать кнопку "Язык"
     2. Выбрать нужный язык
- expected-result: |
+  expected-result: |
     Текст описания должен измениться на выбранный язык
- actual-result: |
+  actual-result: |
     Язык текста описания товара не изменился
 
 - summary: |
-    Не реализованна страница оплаты после оформлении заказа
- environment: |
+    Не реализована страница оплаты после оформлении заказа
+  environment: |
     Firefox версия 131.0.3 (64-битная)
-    Microsoft Windows [Version 10.0.19045.5011]
- steps-to-reproduce: |
+    Microsoft Windows Version 10.0.19045.5011
+  steps-to-reproduce: |
     1. Нажать кнопку "Корзина" в правом верхнем углу
     2. Нажать кнопку "Оформить заказ"
     3. Перейти на страницу оплаты
- expected-result: |
+  expected-result: |
     Переход на страницу оплаты после оформлении заказа
- actual-result: |
+  actual-result: |
     Не появляется страницы оплаты
 
 - summary: |
     Не меняется вид кнопки "В корзину" при добавлении товара в корзину
- environment: |
+  environment: |
     Firefox версия 131.0.3 (64-битная)
-    Microsoft Windows [Version 10.0.19045.5011]
- steps-to-reproduce: |
+    Microsoft Windows Version 10.0.19045.5011
+  steps-to-reproduce: |
     1. Нажать кнопку "В корзину"
     2. Перейти в корзину,что б увидеть количество выбранного товара
- expected-result: |
+  expected-result: |
     Кнопка "в корзину" изменилась на количество добавленного товара
- actual-result: |
+  actual-result: |
     Пользователь не видит количество добавленного товара
